@@ -7,7 +7,7 @@ packages:
       name: archive
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.2"
+    version: "3.3.1"
   async:
     dependency: transitive
     description:
@@ -63,14 +63,16 @@ packages:
       name: equatable
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.0.5"
   excel:
     dependency: "direct main"
     description:
-      name: excel
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0-null-safety-3"
+      path: "."
+      ref: HEAD
+      resolved-ref: f9a41c74914022073e90ee07f9cc3b43ab4583ef
+      url: "https://github.com/Reinoal/excel.git"
+    source: git
+    version: "2.0.0-null-safety-4"
   fake_async:
     dependency: transitive
     description:
@@ -211,7 +213,7 @@ packages:
       name: petitparser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.1.0"
+    version: "5.0.0"
   platform:
     dependency: transitive
     description:
@@ -314,7 +316,7 @@ packages:
       name: xml
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.1.2"
+    version: "6.1.0"
 sdks:
   dart: ">=2.17.0 <3.0.0"
   flutter: ">=3.0.0"
